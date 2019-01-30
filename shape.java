@@ -1,10 +1,12 @@
 public abstract class Shape () {
-  int x;
-  int y;
-  int z;
-  Shape (int x, int y, int z) {
+  public int x;
+  public int y;
+  public int z;
+  String color;
+  Shape (int x, int y, int z, String color) {
     this.x = x;
     this.y = y;
     this.z = z;
+    this.color = color;
   }
 }
