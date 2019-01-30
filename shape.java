@@ -1,6 +1,6 @@
 public abstract class Shape () {
-  int x;
-  int y;
+  public int x;
+  public int y;
   String color;
   Shape (int x, int y, String color) {
     this.x = x;
