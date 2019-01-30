@@ -1,4 +1,4 @@
-public abstract class Square () {
+public abstract class Square ()  {
 
     Square (int x) {
         this.x = x;
